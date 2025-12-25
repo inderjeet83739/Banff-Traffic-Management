@@ -1,0 +1,21 @@
+{
+    "model_name": "xgb_807_model_resident",
+    "version": "1.0",
+    "features": [
+        "day_of_week_num",
+        "hour",
+        "WestEntrance_Southbound_lag3",
+        "is_holiday_BC",
+        "is_holiday_AB",
+        "is_holiday_US",
+        "rolling_mean_3h",
+        "is_bad_weather",
+        "month",
+        "total_downtown_outflow_lag3"
+    ],
+    "metrics": {
+        "mae": 7.94,
+        "rmse": 10.26,
+        "r2": 0.8
+    }
+}

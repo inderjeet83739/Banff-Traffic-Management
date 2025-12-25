@@ -1,0 +1,18 @@
+{
+    "model_name": "xgb_2161_model_visitor",
+    "version": "1.0",
+    "features": [
+        "hour",
+        "MountainAve_Southbound_lag3",
+        "rolling_std_24h",
+        "WestEntrance_Northbound_lag3",
+        "target_lag3",
+        "day_of_week_num",
+        "target_lag24"
+    ],
+    "metrics": {
+        "mae": 21.61,
+        "rmse": 37.43,
+        "r2": 0.987
+    }
+}
